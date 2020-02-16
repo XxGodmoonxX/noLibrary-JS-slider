@@ -7,6 +7,9 @@
   "author": "Motoki Watanabe <knd.sbz.mrs.rg.tg.uhr.uol@gmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "build": "webpack"
+  },
   "devDependencies": {
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
