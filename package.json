@@ -1,0 +1,13 @@
+{
+  "name": "noLibrary-JS-slider",
+  "version": "1.0.0",
+  "description": "make pure JS Slider with no library",
+  "main": "index.js",
+  "repository": "https://github.com/XxGodmoonxX/noLibrary-JS-slider.git",
+  "author": "Motoki Watanabe <knd.sbz.mrs.rg.tg.uhr.uol@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "webpack": "^4.41.6"
+  }
+}
