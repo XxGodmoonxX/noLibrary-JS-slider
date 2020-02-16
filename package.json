@@ -8,6 +8,7 @@
   "license": "MIT",
   "private": false,
   "devDependencies": {
-    "webpack": "^4.41.6"
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
   }
 }
