@@ -34,11 +34,18 @@ module.exports = {
             options: {
               // babelの設定
               // modules: false でimportがそのままになるらしい
-              presets: [["@babel/preset-env", { modules: false }]]
+              // presets: [["@babel/preset-env", { modules: false }]]
+              presets: [["@babel/preset-env"]]
             }
           }
         ]
       }
     ]
   }
+  // プラグインの設定
+  // plugins: [
+  //   new webpack.ProvidePlugin({
+  //     $: 'jquery'
+  //   })
+  // ]
 };
