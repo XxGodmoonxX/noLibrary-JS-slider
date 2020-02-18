@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nconst additionCalculator = (number1, number2) => {\n  return number1 + number2;\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (additionCalculator);\n\n\n//# sourceURL=webpack:///./src/addition-calculator.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nvar additionCalculator = function additionCalculator(number1, number2) {\n  return number1 + number2;\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (additionCalculator);\n\n//# sourceURL=webpack:///./src/addition-calculator.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nconst additionCalculator = (n
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _addition_calculator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./addition-calculator */ \"./src/addition-calculator.js\");\n/* harmony import */ var _tax_calculator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tax-calculator */ \"./src/tax-calculator.js\");\n\n\n\nconst item1Price = 400;\nconst item2Price = 600;\nconst totalPrice = Object(_addition_calculator__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(item1Price, item2Price);\nconst tax = 1.08;\nconst priceIncludeTax = Object(_tax_calculator__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(totalPrice, tax);\n\nconsole.log(priceIncludeTax);\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _addition_calculator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./addition-calculator */ \"./src/addition-calculator.js\");\n/* harmony import */ var _tax_calculator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./tax-calculator */ \"./src/tax-calculator.js\");\n\n\nvar item1Price = 400;\nvar item2Price = 600;\nvar totalPrice = Object(_addition_calculator__WEBPACK_IMPORTED_MODULE_0__[\"default\"])(item1Price, item2Price);\nvar tax = 1.08;\nvar priceIncludeTax = Object(_tax_calculator__WEBPACK_IMPORTED_MODULE_1__[\"default\"])(totalPrice, tax);\nconsole.log(priceIncludeTax);\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ }),
 
@@ -118,7 +118,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _add
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nconst taxCalculator = (price ,tax) => {\n  return Math.round(price * tax);\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (taxCalculator);\n\n//# sourceURL=webpack:///./src/tax-calculator.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nvar taxCalculator = function taxCalculator(price, tax) {\n  return Math.round(price * tax);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (taxCalculator);\n\n//# sourceURL=webpack:///./src/tax-calculator.js?");
 
 /***/ })
 

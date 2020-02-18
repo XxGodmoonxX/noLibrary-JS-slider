@@ -10,12 +10,35 @@ module.exports = {
   // モードの設定、v4系以降はmodeを指定しないと、webpack実行時に警告が出る
   mode: "development",
   // エントリーポイント 各モジュールを読み込んで処理するJS
-  entry: './src/app.js',
+  entry: "./src/app.js",
   // 出力の設定
   output: {
     // 出力ファイル名
-    filename: 'app.js',
+    filename: "app.js",
     // 出力するパス名
-    path: path.join(__dirname, 'public/js')
+    path: path.join(__dirname, "public/js")
+  },
+  // ローダーの設定
+  module: {
+    rules: [
+      {
+        // ローダーの処理対象
+        test: /\.js$/,
+        // ローダーの処理から外す
+        exclude: /node_modules/,
+        use: [
+          {
+            // 利用するローダー
+            loader: "babel-loader",
+            // ローダーのオプション
+            options: {
+              // babelの設定
+              // modules: false でimportがそのままになるらしい
+              presets: [["@babel/preset-env", { modules: false }]]
+            }
+          }
+        ]
+      }
+    ]
   }
 };
