@@ -9,3 +9,5 @@ const tax = 1.08;
 const priceIncludeTax = taxCalculator(totalPrice, tax);
 
 console.log(priceIncludeTax);
+
+document.body.classList.add("back");

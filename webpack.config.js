@@ -16,7 +16,11 @@ module.exports = {
     // 出力ファイル名
     filename: "app.js",
     // 出力するパス名
-    path: path.join(__dirname, "public/js")
+    // path: path.join(__dirname, "public/js")
+    path: `${__dirname}/public`
+  },
+  devServer: {
+    contentBase: `${__dirname}/public`
   },
   // ローダーの設定
   module: {
