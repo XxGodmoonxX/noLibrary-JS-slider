@@ -39,6 +39,12 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        // ローダーの対象
+        test: /\.css$/,
+        // 使用するローダー 実行されるのは後ろから cssをlorderしてからstyleに適用
+        use: ["style-loader", "css-loader"]
       }
     ]
   }

@@ -1,5 +1,6 @@
-import additionCalculator from './addition-calculator';
-import taxCalculator from './tax-calculator';
+import additionCalculator from "./addition-calculator";
+import taxCalculator from "./tax-calculator";
+import "./style.css";
 
 const item1Price = 400;
 const item2Price = 600;
