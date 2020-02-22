@@ -2,12 +2,13 @@
   title: 'indexのタイトル',
   ogType: 'website'
   }) %>
-  hello world
-  <%- include('/components/atoms/textfield/_textfield', {modifiers: ['top']})  %>
-  <%- include('/components/molecules/formgroup/_formgroup', {
+hello world
+<%- include('/components/atoms/textfield/_textfield', {modifiers: ['top']})  %>
+<%- include('/components/molecules/formgroup/_formgroup', {
     label: 'xxx',
     children: include('/components/atoms/textfield/_textfield', {})
   })  %>
 
 </body>
+
 </html>
