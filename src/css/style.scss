@@ -1,0 +1,13 @@
+/* SASS */
+@import 'variables';
+@import 'functions';
+@import 'mixins';
+/* @keyframes */
+@import 'keyframes';
+
+.slider {
+}
+
+.slider__wrapper {
+  display: flex;
+}

@@ -1,13 +1,15 @@
 <%- include('/_head', {
-  title: 'indexのタイトル',
-  ogType: 'website'
   }) %>
-hello world
-<%- include('/components/atoms/textfield/_textfield', {modifiers: ['top']})  %>
-<%- include('/components/molecules/formgroup/_formgroup', {
-    label: 'xxx',
-    children: include('/components/atoms/textfield/_textfield', {})
-  })  %>
+
+<section class="slider">
+  <div class="slider__wrapper">
+    <img class="slider__item" src="https://source.unsplash.com/400x300/?nature">
+    <img class="slider__item" src="https://source.unsplash.com/400x300/?water">
+    <img class="slider__item" src="https://source.unsplash.com/400x300/?film">
+    <img class="slider__item" src="https://source.unsplash.com/400x300/?animal">
+    <img class="slider__item" src="https://source.unsplash.com/400x300/?computer">
+  </div>
+</section>
 
 </body>
 
