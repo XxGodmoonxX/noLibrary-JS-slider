@@ -6,8 +6,14 @@
 @import '../assets/css/keyframes';
 
 .slider {
+  height: 300px;
+  overflow: hidden;
+  width: 400px;
 }
 
 .slider__wrapper {
   display: flex;
+}
+
+.slider__item {
 }
